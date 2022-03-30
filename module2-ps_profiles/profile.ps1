@@ -1,5 +1,5 @@
-$profile | select *host* |  Format-List
-dir $profile
+$profile | Select-Object *host* |  Format-List
+Get-ChildItem $profile
 New-Item $profile -Force
 Add-Content -Value 'cd c:\scripts' -Path $profile
 Add-Content -Value '$var = 123' -Path $profile
@@ -23,4 +23,5 @@ Add-Content -Value "set-alias np Notepad" -Path $profile.CurrentUserAllHosts
 # Write-Host -ForegroundColor  DarkBlue  "PowerhShell of mine"
 # Write-Host -ForegroundColor  DarkGreen  "PowerhShell of mine"
 
+# Adding Test
 
