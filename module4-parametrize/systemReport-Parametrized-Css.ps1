@@ -6,7 +6,7 @@ Param (
     [string]$Computername = $env:COMPUTERNAME,
     [string]$Newest = 500,
     [string]$ReportTitle = "Event Log Report",
-    [Parameter(Mandatory,HelpMessage = "Enter the path for the HTML file.")]
+    [Parameter(Mandatory, HelpMessage = "Enter the path for the HTML file.")]
     [string]$Path
 )
 
