@@ -23,5 +23,5 @@ Add-Content -Value "set-alias np Notepad" -Path $profile.CurrentUserAllHosts
 # Write-Host -ForegroundColor  DarkBlue  "PowerhShell of mine"
 # Write-Host -ForegroundColor  DarkGreen  "PowerhShell of mine"
 
-# Adding
+# Adding git test
 
