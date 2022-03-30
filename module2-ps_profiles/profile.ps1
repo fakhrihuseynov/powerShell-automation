@@ -3,7 +3,7 @@ Get-ChildItem $profile
 New-Item $profile -Force
 Add-Content -Value 'cd c:\scripts' -Path $profile
 Add-Content -Value '$var = 123' -Path $profile
-Add-Content -Value '$host.privatedata.errorforegroundcolor="green"' -Path $profile
+Add-Content -Value '$host.privatedata.errorforegroundcolor="red"' -Path $profile
 Add-Content -Value 'Write-Host "Hello Fakhri Huseynov :) Have a nice scripting..!" -foregroundcolor ' 
 
 # Current User All-hosts
