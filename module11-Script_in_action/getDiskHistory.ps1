@@ -23,7 +23,7 @@ foreach ($Computer in $Computername) {
     # Update the hashtable on the fly
     $cimParams.Computername = $Computer
     try {
-        $disks = Get-CimInstance $cimParams
+        $disks = Get-CimInstance @cimParams
         $data += $disks |
         Select-Object @{Name = "Computername"; Expression = { $_.SystemName } },
         DeviceID, Size, FreeSpace,
