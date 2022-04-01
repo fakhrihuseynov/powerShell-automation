@@ -5,6 +5,7 @@ $computerName = "foo"
 try {
     Get-Service BITS -ComputerName $computerName -ErrorAction Stop
 }
-catch {  # <--- Here is catching the errors 
+catch {
+    # <--- Here is catching the errors 
     Write-Warning "Failed to find what are you looking for on host ---->: $computerName.$($_exeception.message)"
 }
