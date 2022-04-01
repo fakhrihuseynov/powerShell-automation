@@ -13,7 +13,7 @@ $data = @()
 
 # Define a hashtable of parameters to splat to Get-CimInstance
 $cimParams = @{
-    ClassName   = 'Win32_LogicalDisk'
+    ClassName   = "Win32_LogicalDisk"
     Filter      = "drivetype = 3"
     ErrorAction = "Stop"
 }
