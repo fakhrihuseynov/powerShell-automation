@@ -2,10 +2,6 @@
 # You can use whatever variable you want
 # Does not pass objects down the pipeline
 # -----------------------------------------------------------------
-# 
-
-
-
 
 function fileBulk {
     $nums = 1..25
