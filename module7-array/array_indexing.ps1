@@ -4,7 +4,7 @@
 
 $n = 1..5
 $n.Count
-$n
+$n | Get-Member
 
 # Access an item by index number
 $n[1]
