@@ -1,0 +1,24 @@
+*******************
+Low Diskpace <=30%
+*******************
+
+Computername DeviceID SizeGB           FreeGB          PctFree Date               
+------------ -------- ------           ------          ------- ----               
+MYLENOVO     G:          232 63.1101493835449 27.1991018612094 4/2/2022 2:55:19 PM
+
+
+**************************************
+Change Percent between last 2 reports
+**************************************
+MYLENOVO Drive C: had a change of 91%
+MYLENOVO Drive D: had a change of 100%
+MYLENOVO Drive F: had a change of 30%
+MYLENOVO Drive G: had a change of 27%
+
+*******************************
+Percent Free Average Over Time
+*******************************
+MYLENOVO C: = 91%
+MYLENOVO D: = 100%
+MYLENOVO F: = 30%
+MYLENOVO G: = 27%

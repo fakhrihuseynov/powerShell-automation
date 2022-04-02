@@ -19,7 +19,7 @@ $cimParams = @{
 }
 Write-Host "Getting disk information from $Computername" -ForegroundColor Cyan
 foreach ($Computer in $Computername) {
-    Write-Host "Getting diskos information from $Computer." -ForegroundColor Cyan
+    Write-Host "Getting disk information from $Computer." -ForegroundColor Cyan
     # Update the hashtable on the fly
     $cimParams.Computername = $Computer
     try {
